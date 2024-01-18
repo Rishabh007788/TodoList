@@ -17,7 +17,7 @@
   position: absolute;
   left: 50%;
   transform-origin: 50% 0;
-  animation: moveIt1 1.7s ease-in-out 1s infinite;
+  animation: moveIt1 1.7s ease-in-out 0s infinite;
 }
 
 @keyframes moveIt1 {
@@ -37,7 +37,7 @@
   position: absolute;
   left: 50%;
   transform-origin: 50% 0;
-  animation: moveIt2 1.7s ease-in-out 1s infinite;
+  animation: moveIt2 1.7s ease-in-out 0s infinite;
 }
 @keyframes moveIt2 {
     0%, 100% {
