@@ -7,31 +7,6 @@ body{
     background-image: linear-gradient(to right top,rgb(107, 106, 106), rgb(37, 117, 247), rgb(219, 120, 44) 90%);
     min-height: 100vh;
 }
-#container{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-family: cursive;
-}
-.to{
-    
-    font-family: cursive;
-    font-size: 40px;
-    font-weight: 800;
-    padding-left: 12px;
-    padding-top: 10px;
-    margin-top: 18px;
-}
-.do{
-    font-family: cursive;
-    font-size: 40px;
-    font-weight: 800;
-    padding-top: 20px;
-    padding-left: 12px;
-    margin-top: 28px;
-}
-
 .maincnt{
     min-height: 400px;
     width: 60%;
