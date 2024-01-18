@@ -1,0 +1,73 @@
+.container{
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    position: relative;
+}
+.container .thread{
+    height: 100px;
+    width: 0px;
+    border-right: 2px solid black;
+}
+.container .one{
+    display: inline-block;
+  width: 2px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform-origin: 50% 0;
+  animation: moveIt1 1.7s ease-in-out 1s infinite;
+}
+
+@keyframes moveIt1 {
+    0%, 100% {
+      transform: rotate(-20deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+  }
+
+  .container .two{
+    display: inline-block;
+  width: 2px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform-origin: 50% 0;
+  animation: moveIt2 1.7s ease-in-out 1s infinite;
+}
+@keyframes moveIt2 {
+    0%, 100% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(-20deg);
+    }
+  }
+
+.ball1{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(250, 7, 7);
+    color: aliceblue;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: 50px;
+    box-shadow: -5px 5px 5px grey;
+}
+
+.ball2{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: -30px;
+    box-shadow: -5px 5px 5px grey;
+}
+
+
+
