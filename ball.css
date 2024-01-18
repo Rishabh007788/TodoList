@@ -56,7 +56,7 @@
     border-radius: 50%;
     margin-left: -30px;
     margin-top: 50px;
-    box-shadow: -5px 5px 5px grey;
+    box-shadow: rgb(34, 34, 34);
 }
 
 .ball2{
@@ -66,7 +66,7 @@
     border-radius: 50%;
     margin-top: 50px;
     margin-left: -30px;
-    box-shadow: -5px 5px 5px grey;
+    box-shadow: rgb(34, 34, 34);
 }
 
 
