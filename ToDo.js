@@ -29,7 +29,7 @@ function Addtask() {
 
         activelist.appendChild(li);
         input.value = ''
-        savetask()
+      //  savetask()
     }
 
 }
@@ -48,16 +48,16 @@ activelist.addEventListener(
         var removed;
         if (e.target.className === "completebt") {
             e.target.parentElement.classList.toggle("checked");
-            savetask()
+          //  savetask()
         }
         else if (e.target.className === "removebtn") {
             e.target.parentElement.remove();
-            savetask();
+           // savetask();
         }
     }
 )
 
-function savetask() {
+/*function savetask() {
     localStorage.setItem("tasks", activelist.innerHTML)
 }
 
@@ -66,5 +66,5 @@ function displaytasks() {
 }
 
 displaytasks();
-
+*/
 
